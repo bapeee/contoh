@@ -19,7 +19,7 @@ app = Client(
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
-	await message.reply_text(text =f"Hai **{message.from_user.first_name }** \n\n __aku itu Bot Translate simple lah \n aku bisa men translate ke beberapa bahasa, kamu tinggal pilih saja ya... :)\n\n masukan teks yang akan kamu translate__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/viuwwx") ],               [InlineKeyboardButton("Thanks 🧐", url="https://youtube.com") ]   ]  ) )
+	await message.reply_text(text =f"Hai **{message.from_user.first_name }** \n\n __aku itu Bot Translate simple lah \n aku bisa men translate ke beberapa bahasa, kamu tinggal pilih saja ya... :)\n\n masukan teks yang akan kamu translate__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("authors" ,url="https://t.me/viuwwx") ],               [InlineKeyboardButton("Thanks 🧐", url="https://youtube.com") ]   ]  ) )
                   
 
 
