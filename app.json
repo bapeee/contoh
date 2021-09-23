@@ -1,7 +1,7 @@
 {
-    "name": "Google Translater",
-    "description": "Bot can translate any language to you selected language",
-    "repository": "https://github.com/lntechnical2/Google-Translater-",
+    "name": "TranslateKu",
+    "description": "Bot bisa men translate ke berbagai bahasa",
+    "repository": "https://github.com/viuwww/TranslatKu-",
     "keywords": ["Google Translater", "pyrogram", "telegram bot"],
     "env": {
         "TOKEN": {
